@@ -1,0 +1,14 @@
+{
+    "dependencies": [
+        {
+            "name": "loki",
+            "source": {
+                "git": {
+                    "remote": "https://github.com/grafana/loki",
+                    "subdir": "production/ksonnet/loki"
+                }
+            },
+            "version": "master"
+        }
+    ]
+}

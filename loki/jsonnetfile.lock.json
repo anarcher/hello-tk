@@ -1,0 +1,44 @@
+{
+    "dependencies": [
+        {
+            "name": "loki",
+            "source": {
+                "git": {
+                    "remote": "https://github.com/grafana/loki",
+                    "subdir": "production/ksonnet/loki"
+                }
+            },
+            "version": "3b802b2ce12543b34db22459177fb6205b34bcc3"
+        },
+        {
+            "name": "ksonnet-util",
+            "source": {
+                "git": {
+                    "remote": "https://github.com/grafana/jsonnet-libs",
+                    "subdir": "ksonnet-util"
+                }
+            },
+            "version": "54865853ebc1f901964e25a2e7a0e4d2cb6b9648"
+        },
+        {
+            "name": "consul",
+            "source": {
+                "git": {
+                    "remote": "https://github.com/grafana/jsonnet-libs",
+                    "subdir": "consul"
+                }
+            },
+            "version": "54865853ebc1f901964e25a2e7a0e4d2cb6b9648"
+        },
+        {
+            "name": "memcached",
+            "source": {
+                "git": {
+                    "remote": "https://github.com/grafana/jsonnet-libs",
+                    "subdir": "memcached"
+                }
+            },
+            "version": "54865853ebc1f901964e25a2e7a0e4d2cb6b9648"
+        }
+    ]
+}
